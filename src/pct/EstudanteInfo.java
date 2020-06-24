@@ -55,5 +55,11 @@ public class EstudanteInfo extends Estudante{
     
     public EstudanteInfo(){
     }
-            
+    
+    @Override
+    public void imprimirEstudante(){
+        super.estudanteInfo();
+        this.atribuirNota();
+    }
+    
 }
