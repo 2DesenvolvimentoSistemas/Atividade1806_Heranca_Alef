@@ -55,11 +55,11 @@ public class EstudanteInfo extends Estudante{
     
     public EstudanteInfo(){
     }
-    
+
     @Override
-    public void imprimirEstudante(){
-        super.estudanteInfo();
+    public void apresentarEstudante() {
+        super.apresentarEstudante(); //To change body of generated methods, choose Tools | Templates.
         this.atribuirNota();
     }
-    
+        
 }

@@ -15,7 +15,7 @@ public class Estudante {
     private int ra;
     
     //Metodos
-    public void estudanteInfo(){
+    public void apresentarEstudante(){
         System.out.println("Nome: " + this.getNome());
         System.out.println("RA: " + this.getRa());
     }
